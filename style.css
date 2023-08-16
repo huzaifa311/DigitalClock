@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #222;
+}
+
+.smartwatch {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.smartwatch-face {
+    width: 90%;
+    height: 90%;
+    background-color: #333;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#time {
+    font-size: 2em;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+#date {
+    font-size: 1em;
+    color: #aaa;
+}
